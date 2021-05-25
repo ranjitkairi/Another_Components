@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #acacb2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  height: 50vh;
+  padding: 3rem;
+}
+
+body .container h3 {
+  color: #1c1c1c;
+  text-align: center;
+}
+
+body .container .card-layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+body .container .card-layer .card input {
+  width: 20px;
+  height: 20px;
+}
+
+body .container .card-layer .card small {
+  font-size: 0.7rem;
+  color: #747474;
+}
+
+body .container form {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+body .container form .email {
+  outline-color: blue;
+  height: 50%;
+  width: 50vh;
+  padding-left: 5.2rem;
+  font-size: 0.7rem;
+}
+
+body .container form .button {
+  cursor: pointer;
+  border-style: none;
+  background: blue;
+  margin-top: 0.7rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.7rem;
+  color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #acacb2;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #fff;
+    border-radius: 5px;
+    width: 96%;
+    height: 50vh;
+    padding: 1rem;
+  }
+  body .container h3 {
+    color: #1c1c1c;
+    text-align: center;
+  }
+  body .container .card-layer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 1rem;
+    font-variant: small-caps;
+  }
+  body .container .card-layer .card input {
+    width: 20px;
+    height: 20px;
+  }
+  body .container .card-layer .card small {
+    font-size: 0.7rem;
+    color: #747474;
+  }
+  body .container form {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  body .container form .email {
+    outline-color: blue;
+    height: 50%;
+    width: 35vh;
+    padding-left: 4rem;
+    font-size: 0.7rem;
+  }
+  body .container form .button {
+    cursor: pointer;
+    border-style: none;
+    background: blue;
+    margin-top: 0.7rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    color: antiquewhite;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Feedback | Form | Model</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-head">
+        <h2>Feedback</h2>
+        <p>&starf;Please provide your feedback below&starf;</p>
+      </div>
+      <div class="head">
+        <label>How do you rate your overall experience?</label>
+        <p>
+          <label for="">
+            <input
+              type="radio"
+              name="experience"
+              id="radio_experience"
+              value="bad"
+            />
+            Bad &ensp;
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="experience"
+              id="radio_experience"
+              value="average"
+            />
+            Average &ensp;
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="experience"
+              id="radio_experience"
+              value="good"
+            />
+            Good &ensp;
+          </label>
+        </p>
+      </div>
+      <div class="comment-box">
+        <label for="comments"> Comments</label>
+        <textarea
+          type="textarea"
+          name="comments"
+          id="comments"
+          placeholder="Your Comments"
+          maxlength="6000"
+          rows="6"
+        ></textarea>
+      </div>
+      <div class="form-control">
+        <div class="name-box">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="email-box">
+          <label for="email"> Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+      </div>
+      <div class="button">
+        <button type="button">Post</button>
+      </div>
+      <span>&sstarf; &sstarf; &female; &sstarf; &sstarf;</span>
+    </div>
+  </body>
+</html>
