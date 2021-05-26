@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Uploads | Components</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Uploded Photos and Videos</h4>
+      <p>We are gald you decide to join <br />our cause!</p>
+      <div class="browser">
+        <a href="#">Browser</a><br />
+        <small>or drag and drop</small>
+      </div>
+      <div class="main">
+        <div class="left">
+          <img src="./image/pexels-pixabay-60597.jpg" alt="#" />
+        </div>
+        <div class="right">
+          <div class="form-control">
+            <div class="input-box">
+              <label for="name">Name your file</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Please enter a name for the file"
+                required
+              />
+              <div class="location">
+                <label for="location">location(optonal)</label>
+                <input
+                  type="location"
+                  id="location"
+                  name="location"
+                  placeholder="Eg. On a tree, in the car"
+                  required
+                />
+              </div>
+            </div>
+            <div class="tag-box">
+              <label for="tag"> Tag(optonal)</label>
+              <div class="tag">
+                <small>Flower</small>&emsp;&emsp;
+                <small>Yellow</small>
+              </div>
+            </div>
+            <div class="button">
+              <button type="button">Upload</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
