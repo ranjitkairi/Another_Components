@@ -1,0 +1,252 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+body .container {
+  background: #fcfafc;
+  width: 25%;
+  height: 50vh;
+  border-radius: 10px;
+  padding: 2.5rem;
+}
+
+body .container i {
+  margin-left: -1rem;
+  color: #696969;
+  cursor: pointer;
+}
+
+body .container hr {
+  width: 100%;
+  text-align: bottom;
+  margin-left: 0;
+}
+
+body .container .searchContainer {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  margin-left: 2rem;
+}
+
+body .container .searchContainer .searchBox {
+  outline-style: none;
+  border-style: none;
+  width: 250px;
+}
+
+body .container .card-header {
+  margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+body .container .card-header .card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  border-radius: 3px;
+  width: 80px;
+  height: 75px;
+  padding: 0.7rem;
+  margin-left: -0.2rem;
+}
+
+body .container .card-header .card::before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 5px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  top: -1px;
+  left: 10.3%;
+}
+
+body .container .card-header .card a {
+  text-decoration: none;
+  color: black;
+}
+
+body .container .card-header .card a small {
+  font-size: 0.7rem;
+}
+
+.color1::before {
+  background-color: #bd73df;
+}
+
+.color2::before {
+  background-color: #91b8ee;
+}
+
+.color3::before {
+  background-color: tomato;
+}
+
+.color4::before {
+  background-color: lightgreen;
+}
+
+.color5::before {
+  background-color: #e1c685;
+}
+
+.color6::before {
+  background-color: lightseagreen;
+}
+
+.color01 {
+  border: 1px solid #bd73df;
+}
+
+.color02 {
+  border: 1px solid #91b8ee;
+}
+
+.color03 {
+  border: 1px solid tomato;
+}
+
+.color04 {
+  border: 1px solid lightgreen;
+}
+
+.color05 {
+  border: 1px solid #e1c685;
+}
+
+.color06 {
+  border: 1px solid lightseagreen;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #e0e0e0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  body .container {
+    background: #fcfafc;
+    width: 96%;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 3rem;
+  }
+  body .container i {
+    margin-left: -1rem;
+    color: #696969;
+  }
+  body .container hr {
+    width: 100%;
+    text-align: bottom;
+    margin-left: 0;
+  }
+  body .container .searchContainer {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 300px;
+            flex: 1 1 300px;
+    margin-left: 2rem;
+  }
+  body .container .searchContainer .searchBox {
+    outline-style: none;
+    border-style: none;
+    width: 250px;
+  }
+  body .container .card-header {
+    margin-top: 3rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  body .container .card-header .card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    border-radius: 3px;
+    width: 82px;
+    height: 75px;
+    padding: 0.7rem;
+    margin-left: 0.2rem;
+  }
+  body .container .card-header .card::before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    top: -1px;
+    left: 10.3%;
+  }
+  body .container .card-header .card a {
+    text-decoration: none;
+    color: black;
+  }
+  body .container .card-header .card a small {
+    font-size: 0.7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
