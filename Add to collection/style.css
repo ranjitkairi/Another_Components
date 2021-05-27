@@ -1,0 +1,228 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+body .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background: #c5b2b2;
+  border-radius: 10px;
+  width: 35%;
+  height: 75vh;
+  padding: 2rem;
+}
+
+body .container a {
+  float: right;
+}
+
+body .container .card-layer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+body .container .card-layer .card img {
+  width: 100px;
+  height: 70px;
+}
+
+body .container .card-layer .card1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  margin-top: 1rem;
+  border-bottom: 1px solid #b89b9b;
+}
+
+body .container .card-layer .card2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  margin-top: 1rem;
+  border-bottom: 1px solid #b89b9b;
+}
+
+body .container .card-layer .card2 a {
+  color: black;
+}
+
+body .container .card-layer .card2 a :hover {
+  color: #f36597;
+}
+
+body .container .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body .container .bottom a {
+  text-decoration: none;
+  color: red;
+}
+
+body .container .bottom small {
+  color: red;
+}
+
+body .container .bottom button {
+  cursor: pointer;
+  outline-style: none;
+  border: 1px solid #f36597;
+  border-radius: 5px;
+  background: #f36597;
+  width: 100px;
+  height: 35px;
+  color: white;
+}
+
+body .container .bottom button:hover {
+  background: #9e234c;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #fff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 68vh;
+    margin: 0;
+  }
+  body .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    background: #c5b2b2;
+    border-radius: 10px;
+    width: 96%;
+    height: auto;
+    padding: 2rem;
+  }
+  body .container a {
+    float: right;
+  }
+  body .container .card-layer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  body .container .card-layer .card img {
+    width: 100px;
+    height: 70px;
+  }
+  body .container .card-layer .card1 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    margin-top: 1rem;
+    border-bottom: 1px solid #b89b9b;
+  }
+  body .container .card-layer .card2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    margin-top: 1rem;
+    border-bottom: 1px solid #b89b9b;
+  }
+  body .container .card-layer .card2 a {
+    color: black;
+  }
+  body .container .card-layer .card2 a :hover {
+    color: #f36597;
+  }
+  body .container .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  body .container .bottom a {
+    text-decoration: none;
+    color: red;
+  }
+  body .container .bottom small {
+    color: red;
+  }
+  body .container .bottom button {
+    cursor: pointer;
+    outline-style: none;
+    border: 1px solid #f36597;
+    border-radius: 5px;
+    background: #f36597;
+    width: 100px;
+    height: 35px;
+    color: white;
+  }
+  body .container .bottom button:hover {
+    background: #9e234c;
+  }
+}
+/*# sourceMappingURL=style.css.map */
