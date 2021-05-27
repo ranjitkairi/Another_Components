@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Date | Filter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="date-type">
+        <label for="LAST" class="LAST">
+          <input type="radio" name="date-type" id="LAST" checked />
+          <span class="date">LAST</span>
+        </label>
+        <label for="CURRENT" class="CURRENT">
+          <input type="radio" name="date-type" id="CURRENT" />
+          <span class="date">CURRENT</span>
+        </label>
+        <label for="NEXT" class="NEXT">
+          <input type="radio" name="date-type" id="NEXT" />
+          <span class="date">NEXT</span>
+        </label>
+      </div>
+      <div class="date-table">
+        <select name="date" id="Days">
+          <option value="Days">Days</option>
+        </select>
+        <select name="date" id="Weeks">
+          <option value="Weeks">Weeks</option>
+        </select>
+        <select name="date" id="Periods">
+          <option value="Periods">Periods</option>
+        </select>
+        <select name="date" id="Months">
+          <option value="Months">Months</option>
+        </select>
+      </div>
+      <hr />
+      <div class="vl"></div>
+
+      <div class="main">
+        <p class="two">2</p>
+        <p>Weeks</p>
+      </div>
+      <button>Apply filter</button>
+    </div>
+  </body>
+</html>

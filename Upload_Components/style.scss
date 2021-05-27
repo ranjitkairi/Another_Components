@@ -86,12 +86,11 @@ body {
         }
       }
       .right {
-        height: 100vh;
         .form-control {
           .input-box {
             label {
               color: #fff;
-              margin-left: -3.6rem;
+              text-align: left;
               font-size: 0.8rem;
             }
             input {
@@ -104,11 +103,11 @@ body {
               padding: 1.3rem;
             }
             .location {
-              margin-top: 1rem;
+              margin-top: 0.5rem;
             }
           }
           .tag-box {
-            margin-top: 1rem;
+            margin-top: 0.5rem;
             label {
               color: #fff;
               margin-left: -8rem;
@@ -130,7 +129,7 @@ body {
             }
           }
           .button {
-            margin-top: 1rem;
+            margin-top: 0.5rem;
 
             button {
               cursor: pointer;
@@ -141,6 +140,7 @@ body {
               width: 200px;
               height: 35px;
               color: #fff;
+              margin-left: -0.5rem;
               font-size: 0.7rem;
             }
           }
@@ -167,14 +167,14 @@ body {
       align-items: center;
       text-align: center;
       justify-content: center;
-      position: relative;
+      position: absolute;
       background: #1c174d;
-      width: 36%;
+      width: 96%;
       height: 43vh;
       border-radius: 10px;
       padding: 2rem;
-      top: -6rem;
-      left: -10rem;
+      top: 5rem;
+      left: 0.5rem;
 
       h4 {
         color: #e2d5ab;
@@ -219,15 +219,15 @@ body {
         height: 50vh;
         border-radius: 10px;
         padding: 2.5rem;
-        top: 10rem;
-        left: 20rem;
-        gap: 2rem;
+        top: 22rem;
+        left: 0rem;
+        gap: 1rem;
 
         .left {
           img {
-            width: 170px;
-            height: 120px;
-            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 7px;
           }
         }
         .right {

@@ -106,13 +106,9 @@ body .container .main .left img {
   border-radius: 10px;
 }
 
-body .container .main .right {
-  height: 100vh;
-}
-
 body .container .main .right .form-control .input-box label {
   color: #fff;
-  margin-left: -3.6rem;
+  text-align: left;
   font-size: 0.8rem;
 }
 
@@ -127,11 +123,11 @@ body .container .main .right .form-control .input-box input {
 }
 
 body .container .main .right .form-control .input-box .location {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 body .container .main .right .form-control .tag-box {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 body .container .main .right .form-control .tag-box label {
@@ -156,7 +152,7 @@ body .container .main .right .form-control .tag-box .tag small {
 }
 
 body .container .main .right .form-control .button {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 body .container .main .right .form-control .button button {
@@ -168,6 +164,7 @@ body .container .main .right .form-control .button button {
   width: 200px;
   height: 35px;
   color: #fff;
+  margin-left: -0.5rem;
   font-size: 0.7rem;
 }
 
@@ -203,14 +200,14 @@ body .container .main .right .form-control .button button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: relative;
+    position: absolute;
     background: #1c174d;
-    width: 36%;
+    width: 96%;
     height: 43vh;
     border-radius: 10px;
     padding: 2rem;
-    top: -6rem;
-    left: -10rem;
+    top: 5rem;
+    left: 0.5rem;
   }
   body .container h4 {
     color: #e2d5ab;
@@ -253,14 +250,14 @@ body .container .main .right .form-control .button button {
     height: 50vh;
     border-radius: 10px;
     padding: 2.5rem;
-    top: 10rem;
-    left: 20rem;
-    gap: 2rem;
+    top: 22rem;
+    left: 0rem;
+    gap: 1rem;
   }
   body .container .main .left img {
-    width: 170px;
-    height: 120px;
-    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
   }
   body .container .main .right {
     height: 100vh;
